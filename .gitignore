@@ -6,6 +6,11 @@ __pycache__/
 # C extensions
 *.so
 
+# My ignores
+assets/config.py
+databases/*
+
+
 # Distribution / packaging
 .Python
 build/
