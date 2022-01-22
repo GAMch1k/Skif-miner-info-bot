@@ -15,6 +15,8 @@ import os
 # Clearing terminal (or cmd) - cross-platform solution
 os.system('cls' if os.name == 'nt' else 'clear')
 
+# Adding initial log
 log('init')
 
+# Strating bot script
 import bot

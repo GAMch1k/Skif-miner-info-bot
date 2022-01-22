@@ -1,3 +1,12 @@
+# This is "Skif-miner-info-bot" which was created by:
+#  _______ _______ _______        __     ____   __    
+# |     __|   _   |   |   |.----.|  |--.|_   | |  |--.
+# |    |  |       |       ||  __||     | _|  |_|    < 
+# |_______|___|___|__|_|__||____||__|__||______|__|__|
+#                                              GAMch1k
+# © 2022 GAMch1k studio
+
+
 # Imports
 
 import telebot
@@ -5,6 +14,7 @@ from assets import config
 from assets.databaseAPI import *
 from assets.stuff import *
 from assets.markups import *
+
 
 bot = telebot.TeleBot(config.TOKEN)
 
@@ -80,9 +90,6 @@ def change_id_process(message):
             bot.register_next_step_handler(
                 send, main_menu
             )
-            
-
-
 
 
 bot.polling(none_stop=True, timeout=123)

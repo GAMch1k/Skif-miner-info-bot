@@ -25,7 +25,7 @@ def add_nh_id(user_id, nh_id=0):
             get_user_id_in_database(user_id),
             {'nh_id': nh_id}
         )
-        log('nh_id_added')
+        log('nh_id_added', user_id)
     else:
         new_user(user_id, nh_id)
 

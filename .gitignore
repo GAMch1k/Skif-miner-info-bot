@@ -9,7 +9,7 @@ __pycache__/
 # My ignores
 config.py
 database.json
-
+logs.txt
 
 # Distribution / packaging
 .Python
