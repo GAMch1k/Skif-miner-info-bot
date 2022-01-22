@@ -7,3 +7,14 @@
 # © 2022 GAMch1k studio
 
 
+# Imports
+
+from assets.stuff import *
+import os
+
+# Clearing terminal (or cmd) - cross-platform solution
+os.system('cls' if os.name == 'nt' else 'clear')
+
+log('init')
+
+import bot
