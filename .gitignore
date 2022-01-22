@@ -7,8 +7,8 @@ __pycache__/
 *.so
 
 # My ignores
-assets/config.py
-databases/*
+config.py
+database.json
 
 
 # Distribution / packaging
